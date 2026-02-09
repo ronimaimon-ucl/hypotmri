@@ -11,7 +11,7 @@ python -m pip install fmriprep-docker
 ```bash
 PROJ_DIR=/Users/marcusdaghlian/projects/dp-clean-link/240522NG/hypot/
 SUBJECTS_DIR="${PROJ_DIR}/derivatives/freesurfer"
-bash s01_fmriprep_anat_only.sh --bids_dir $BIDS_DIR --sub hp01
+bash s01_fmriprep_anat_only.sh --bids_dir $SUBJECTS_DIR --sub hp01
 ```
 
 
